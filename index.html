@@ -8,61 +8,64 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Cookie Popup -->
-  <div class="cookie-popup" id="cookiePopup">
-    <div class="cookie-content">
-      <h3>We value your privacy</h3>
-      <p>Mahadev IT Solution uses cookies to enhance your browsing experience and analyze our traffic. You can manage your preferences at any time.</p>
-      <div class="cookie-actions">
-        <button id="cookieAccept" class="btn primary-btn">Accept All</button>
-        <button id="cookieCustomise" class="btn outline-btn">Customise</button>
-      </div>
+
+<!-- ================= COOKIE POPUP ================= -->
+<div class="cookie-popup" id="cookiePopup">
+  <div class="cookie-content">
+    <h3>We value your privacy</h3>
+    <p>Mahadev IT Solution uses cookies to enhance your browsing experience and analyze our traffic.</p>
+    <div class="cookie-actions">
+      <button id="cookieAccept" class="btn primary-btn">Accept All</button>
+      <button id="cookieCustomise" class="btn outline-btn">Customise</button>
     </div>
   </div>
+</div>
 
-  <!-- Customise Modal -->
-  <div class="cookie-modal" id="cookieModal">
-    <div class="cookie-modal-inner">
-      <h3>Privacy preferences</h3>
-      <p>We only use essential cookies for functionality and anonymous analytics to improve our services.</p>
-      <ul class="cookie-list">
-        <li>
-          <span>Essential cookies (required)</span>
-          <span class="badge">Always on</span>
-        </li>
-        <li>
-          <span>Analytics cookies (anonymous)</span>
-          <label class="switch">
-            <input type="checkbox" id="analyticsToggle" checked>
-            <span class="slider"></span>
-          </label>
-        </li>
-      </ul>
-      <div class="cookie-actions">
-        <button id="cookieSave" class="btn primary-btn">Save & Close</button>
-      </div>
+<div class="cookie-modal" id="cookieModal">
+  <div class="cookie-modal-inner">
+    <h3>Privacy preferences</h3>
+    <p>We only use essential cookies and anonymous analytics.</p>
+    <ul class="cookie-list">
+      <li>
+        <span>Essential cookies</span>
+        <span class="badge">Always on</span>
+      </li>
+      <li>
+        <span>Analytics cookies</span>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+    <div class="cookie-actions">
+      <button id="cookieSave" class="btn primary-btn">Save & Close</button>
     </div>
   </div>
+</div>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-container">
-      <a href="index.html" class="logo-wrap">
-        <img src="logo.png" alt="Mahadev IT Solution Logo">
-        <span class="logo-text">Mahadev IT Solution</span>
-      </a>
-      <nav class="main-nav" id="mainNav">
-        <a href="index.html" class="nav-link active">Home</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-      </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-<!-- Hero Section -->
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-container">
+    <a href="index.html" class="logo-wrap">
+      <img src="logo.png" alt="Mahadev IT Solution Logo">
+      <span class="logo-text">Mahadev IT Solution</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
 <section class="hero hero-tech">
   <div class="tech-bg"></div>
   <div class="hero-overlay"></div>
@@ -71,8 +74,8 @@
     <div class="hero-content">
       <h1>Your Complete IT Solution Partner</h1>
       <p>
-        Professional IT services including networking, security, CCTV, and support
-        for businesses that cannot afford downtime.
+        Professional IT services including networking, security, CCTV,
+        and support for businesses that cannot afford downtime.
       </p>
 
       <div class="hero-actions">
@@ -104,379 +107,97 @@
   </div>
 </section>
 
-  <div class="hero-overlay"></div>
-    <div class="hero-inner container">
-      <div class="hero-content">
-        <h1>Your Complete IT Solution Partner</h1>
-        <p>Professional IT services including networking, security, CCTV, and support for businesses that cannot afford downtime.</p>
-        <div class="hero-actions">
-          <a href="https://wa.me/919737800178" target="_blank" class="btn whatsapp-btn">WhatsApp Now</a>
-          <a href="contact.html#contact-form" class="btn outline-btn">Contact Us</a>
-        </div>
-        <div class="hero-badges">
-          <span class="badge">End-to-end IT support</span>
-          <span class="badge">On-site & remote</span>
-          <span class="badge">Serving Ahmedabad</span>
-        </div>
-      </div>
-      <div class="hero-highlight">
-        <div class="metric-card">
-          <h3>24/7</h3>
-          <p>Proactive monitoring & critical support for your IT infrastructure.</p>
-        </div>
-        <div class="metric-card">
-          <h3>360°</h3>
-          <p>Coverage across hardware, network, security, and surveillance.</p>
-        </div>
-      </div>
+<!-- ================= IT HUB ================= -->
+<section class="it-hub">
+  <div class="container">
+    <div class="section-header">
+      <h2>Centralized IT hub for your business</h2>
+      <p>All your critical IT services managed under one roof.</p>
     </div>
-  </section>
 
-  <!-- Earth / IT Hub Section -->
-  <section class="it-hub" id="it-hub">
-    <div class="container">
-      <div class="section-header">
-        <h2>Centralized IT hub for your business</h2>
-        <p>Visualize all your critical IT services orbiting around one reliable partner.</p>
-      </div>
-      <div class="hub-layout">
-        <div class="hub-orbit-wrap" id="hubOrbitWrap">
-          <div class="hub-earth"></div>
-          <div class="hub-orbit orbit-1">
-            <div class="hub-item">Laptop &amp; Computer Repair</div>
-            <div class="hub-item">LAN &amp; Networking</div>
-            <div class="hub-item">Firewall &amp; Security</div>
-          </div>
-          <div class="hub-orbit orbit-2">
-            <div class="hub-item">CCTV &amp; Surveillance</div>
-            <div class="hub-item">WiFi &amp; Cabling</div>
-            <div class="hub-item">Software Support</div>
-          </div>
+    <div class="hub-layout">
+      <div class="hub-orbit-wrap">
+        <div class="hub-earth"></div>
+        <div class="hub-orbit orbit-1">
+          <div class="hub-item">Laptop & Computer Repair</div>
+          <div class="hub-item">LAN & Networking</div>
+          <div class="hub-item">Firewall & Security</div>
         </div>
-        <div class="hub-copy">
-          <h3>Always-on, always-secure infrastructure</h3>
-          <ul class="hub-list">
-            <li>Designed for offices, showrooms, housing societies, institutes, and plants.</li>
-            <li>Structured cabling, CCTV layouts, and network planning tailored to your floor plan.</li>
-            <li>Scalable setups that grow with new locations, users, and devices.</li>
-          </ul>
-          <a href="services.html" class="text-link">Explore all services →</a>
+        <div class="hub-orbit orbit-2">
+          <div class="hub-item">CCTV & Surveillance</div>
+          <div class="hub-item">WiFi & Cabling</div>
+          <div class="hub-item">Software Support</div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Services Grid -->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-header">
-        <h2>IT services with reliable execution</h2>
-        <p>Every deployment is carried out with proper planning, documentation, and long-term support.</p>
-      </div>
-      <div class="services-grid">
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service1.jpg" alt="Laptop and computer repair service">
-          </div>
-          <div class="service-body">
-            <h3>Laptop &amp; Computer Repair</h3>
-            <p>Diagnosis, component replacement, OS optimization, and data safety for desktops, laptops, and workstations.</p>
-          </div>
-        </article>
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service2.jpg" alt="LAN and networking setup">
-          </div>
-          <div class="service-body">
-            <h3>LAN &amp; Networking</h3>
-            <p>Design and deployment of wired and wireless networks, switches, racks, and structured cabling.</p>
-          </div>
-        </article>
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service3.jpg" alt="Firewall and security solutions">
-          </div>
-          <div class="service-body">
-            <h3>Firewall &amp; Security</h3>
-            <p>Perimeter firewalls, VPN, endpoint protection, and security best practices for your teams.</p>
-          </div>
-        </article>
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service4.jpg" alt="CCTV surveillance monitoring wall">
-          </div>
-          <div class="service-body">
-            <h3>CCTV &amp; Surveillance</h3>
-            <p>Indoor and outdoor CCTV design, installation, and remote viewing setup for critical locations.</p>
-          </div>
-        </article>
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service5.jpg" alt="WiFi access points and cabling">
-          </div>
-          <div class="service-body">
-            <h3>WiFi &amp; Cabling</h3>
-            <p>Enterprise-grade WiFi, access point placement, and neat cabling for clean, maintainable racks.</p>
-          </div>
-        </article>
-        <article class="service-card">
-          <div class="service-image">
-            <img src="service6.jpg" alt="Software and remote support session">
-          </div>
-          <div class="service-body">
-            <h3>Software Support</h3>
-            <p>OS installation, licensed software rollout, backup policy setup, and remote user assistance.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Insights / Image Cards -->
-  <section class="insights">
-    <div class="container">
-      <div class="section-header">
-        <h2>Insights from the field</h2>
-        <p>Real-world learnings from networks, surveillance, and security deployments for modern businesses.</p>
-      </div>
-      <div class="insights-grid">
-        <article class="insight-card reveal">
-          <div class="insight-image" style="background-image:url('service2.jpg');"></div>
-          <div class="insight-overlay">
-            <h3>Building a stable office network</h3>
-            <p>Why VLAN planning, quality switches, and proper cable labeling save hours during any future expansion.</p>
-            <span class="insight-tag">LAN &amp; Networking</span>
-          </div>
-        </article>
-        <article class="insight-card reveal">
-          <div class="insight-image" style="background-image:url('service4.jpg');"></div>
-          <div class="insight-overlay">
-            <h3>CCTV layouts that actually work</h3>
-            <p>Camera positioning, storage planning, and mobile viewing that align with your security policies.</p>
-            <span class="insight-tag">CCTV &amp; Surveillance</span>
-          </div>
-        </article>
-        <article class="insight-card reveal">
-          <div class="insight-image" style="background-image:url('service3.jpg');"></div>
-          <div class="insight-overlay">
-            <h3>Closing security gaps before incidents</h3>
-            <p>From firewall rules to endpoint hygiene, small configuration changes can block major threats.</p>
-            <span class="insight-tag">Firewall &amp; Security</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <div class="container">
-      <div class="section-header">
-        <h2>Trusted by teams that rely on uptime</h2>
-        <p>Feedback from companies that use Mahadev IT Solution as their long-term IT partner.</p>
-      </div>
-      <div class="testimonials-slider" id="testimonialsSlider">
-        <div class="testimonial-track">
-          <!-- 12 testimonial cards (unchanged content) -->
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Our office relocation was completed with zero IT downtime. Network, CCTV, and WiFi were ready on day one.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Rahul Shah</h3>
-                <span>Director, Aarya Infocom</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Quick response on every ticket and clear documentation for every change in our firewall and servers.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Neha Patel</h3>
-                <span>IT Manager, Shreenath Group</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“They designed a CCTV layout that actually covers what matters instead of just adding more cameras.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Manish Mehta</h3>
-                <span>Owner, Urban Mart</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Our WiFi issues vanished after they reconfigured access points and optimized roaming between floors.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Pooja Desai</h3>
-                <span>Centre Head, LearnMax Institute</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“The team communicates in simple language, shares options with pros and cons, and then implements cleanly.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Kunal Joshi</h3>
-                <span>Founder, PixelCraft Studio</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Patch management, antivirus, and backup were all streamlined without interrupting our day-to-day work.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Dr. Harshita Shah</h3>
-                <span>Director, Lotus Diagnostics</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“They rescued multiple machines from failure and also helped us plan future upgrades in phases.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Amit Trivedi</h3>
-                <span>Partner, Trivedi & Co.</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Camera footage retrieval became a two-minute job thanks to the way they structured storage and naming.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Riya Bhatt</h3>
-                <span>Operations Lead, City Heights Residency</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Remote support sessions are fast, and issues are often resolved before our team even raises a complaint.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Vikram Solanki</h3>
-                <span>Plant Head, Shakti Engineering</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“They helped us standardize systems across branches and created clear IT policies for our staff.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Payal Soni</h3>
-                <span>HR Lead, Meridian Finance</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“Excellent at coordinating with third-party ISPs and vendors so we do not have to follow up multiple times.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Gaurav Jain</h3>
-                <span>Owner, Jain Trading Company</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <p class="testimonial-text">“We finally have a single, reliable team watching over our IT instead of multiple disconnected vendors.”</p>
-            <div class="testimonial-meta">
-              <div>
-                <h3>Sweta Kothari</h3>
-                <span>CEO, BrightLeaf Exports</span>
-              </div>
-              <div class="stars">★★★★★</div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Map & Address -->
-  <section class="map-section" id="location">
-    <div class="container">
-      <div class="section-header">
-        <h2>Visit our office</h2>
-        <p>Located in a well-connected area near Vaishnodevi Circle, Ahmedabad.</p>
-      </div>
-      <div class="map-layout">
-        <div class="map-embed">
-          <iframe
-            title="Mahadev IT Solution Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.4216515507414!2d72.531!3d23.0745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e836c1d5bffff%3A0x0!2sVaishnodevi%20Circle!5e0!3m2!1sen!2sin!4v1700000000000"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="map-info">
-          <h3>Office address</h3>
-          <p>Gala Celestia,<br>near Gala Heaven,<br>Opp. Balaji Wind Park,<br>Vaishnodevi Circle,<br>Ahmedabad – 382421</p>
-          <ul class="contact-list">
-            <li><span>Phone:</span> <a href="tel:+919737800178">+91 97378 00178</a></li>
-            <li><span>Email:</span> <a href="mailto:mahadevsolution99@gmail.com">mahadevsolution99@gmail.com</a></li>
-<li><span>Support:</span> <a href="mailto:mahadevsolution99@gmail.com">mahadevsolution99@gmail.com</a></li>
-          </ul>
-          <a href="contact.html" class="text-link">Get directions &amp; contact →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-container">
-      <div class="footer-brand">
-        <img src="logo.png" alt="Mahadev IT Solution Logo">
-        <p>Mahadev IT Solution delivers dependable IT infrastructure, security, and support for growing businesses in and around Ahmedabad.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Quick links</h4>
-        <ul>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact</a></li>
+      <div class="hub-copy">
+        <h3>Always-on, always-secure infrastructure</h3>
+        <ul class="hub-list">
+          <li>Office, showroom, society & industrial setups</li>
+          <li>Scalable and documented deployments</li>
+          <li>Designed for future growth</li>
         </ul>
-      </div>
-      <div class="footer-links">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="services.html#networking">LAN &amp; Networking</a></li>
-          <li><a href="services.html#cctv">CCTV &amp; Surveillance</a></li>
-          <li><a href="services.html#security">Firewall &amp; Security</a></li>
-        </ul>
-      </div>
-      <div class="footer-meta">
-        <h4>Stay connected</h4>
-        <p>WhatsApp us anytime for support or new project discussions.</p>
-        <a href="https://wa.me/919737800178" target="_blank" class="btn whatsapp-btn small">Chat on WhatsApp</a>
+        <a href="services.html" class="text-link">Explore all services →</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="container footer-bottom-inner">
-        <span>© <span id="yearSpan"></span> Mahadev IT Solution. All rights reserved.</span>
-        <span>Designed &amp; developed for modern IT environments.</span>
-      </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services">
+  <div class="container">
+    <div class="section-header">
+      <h2>IT services with reliable execution</h2>
+      <p>Planning, implementation, and long-term support.</p>
     </div>
-  </footer>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/919737800178" target="_blank" class="whatsapp-float" aria-label="WhatsApp Mahadev IT Solution">
-    <span class="wa-icon"></span>
-  </a>
+    <div class="services-grid">
+      <article class="service-card"><div class="service-body"><h3>Laptop & Computer Repair</h3><p>Hardware and OS troubleshooting.</p></div></article>
+      <article class="service-card"><div class="service-body"><h3>LAN & Networking</h3><p>Structured cabling & switches.</p></div></article>
+      <article class="service-card"><div class="service-body"><h3>Firewall & Security</h3><p>Perimeter and endpoint protection.</p></div></article>
+      <article class="service-card"><div class="service-body"><h3>CCTV & Surveillance</h3><p>Indoor & outdoor monitoring.</p></div></article>
+      <article class="service-card"><div class="service-body"><h3>WiFi & Cabling</h3><p>Enterprise WiFi solutions.</p></div></article>
+      <article class="service-card"><div class="service-body"><h3>Software Support</h3><p>OS, backups & remote support.</p></div></article>
+    </div>
+  </div>
+</section>
 
-  <!-- Cursor glow -->
-  <div class="cursor-glow" id="cursorGlow"></div>
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <img src="logo.png" alt="Mahadev IT Solution">
+      <p>Dependable IT infrastructure & support in Ahmedabad.</p>
+    </div>
 
-  <script src="assets/js/main.js"></script>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-meta">
+      <h4>Contact</h4>
+      <p>📞 +91 97378 00178<br>✉ mahadevsolution99@gmail.com</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>© 2026 Mahadev IT Solution</span>
+      <span>Designed for modern IT environments</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= WHATSAPP FLOAT ================= -->
+<a href="https://wa.me/919737800178" target="_blank" class="whatsapp-float">
+  <span class="wa-icon"></span>
+</a>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
