@@ -1313,3 +1313,9 @@ input:checked + .slider::before {
     bottom: 14px;
   }
 }
+/* GitHub Pages safety fix */
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
